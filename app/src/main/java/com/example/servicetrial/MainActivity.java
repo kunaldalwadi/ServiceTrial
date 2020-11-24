@@ -24,14 +24,14 @@ public class MainActivity extends AppCompatActivity {
         mMainActivityBinding.btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startService(new Intent(MainActivity.this, MyService.class));
+                startService(new Intent(MainActivity.this, UnboundedService.class));
             }
         });
 
         mMainActivityBinding.btnStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                stopService(new Intent(MainActivity.this, MyService.class));
+                stopService(new Intent(MainActivity.this, UnboundedService.class));
             }
         });
     }

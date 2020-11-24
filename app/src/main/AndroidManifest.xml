@@ -18,7 +18,7 @@
         </activity>
 
         <!-- Always remember to add your services in Manifest-->
-        <service android:name=".MyService" />
+        <service android:name=".UnboundedService" />
     </application>
 
 </manifest>

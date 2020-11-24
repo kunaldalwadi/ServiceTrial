@@ -8,7 +8,7 @@ import android.provider.Settings;
 
 import androidx.annotation.Nullable;
 
-class MyService extends Service {
+class UnboundedService extends Service {
 
     private MediaPlayer mMediaPlayer;
 
